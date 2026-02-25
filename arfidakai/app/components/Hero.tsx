@@ -3,10 +3,10 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import { portfolioData } from '@/data/portfolio';
+import { portfolioData } from '@/data/portfolio-data';
 
 export const Hero = () => {
-  const { personal } = portfolioData;
+  const { personal, hero } = portfolioData;
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen px-8 pt-20 overflow-hidden md:flex-row md:px-24 bg-[#0F111A]">
       {/* Dynamic Background Gradients */}
@@ -21,13 +21,13 @@ export const Hero = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 text-xs font-semibold tracking-wider uppercase rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300">
             <Sparkles className="w-3 h-3" />
-            <span>{personal.tagline}</span>
+            <span>{hero.badge}</span>
           </div>
           <h1 className="text-5xl font-bold leading-[1.1] md:text-8xl text-white">
-            {personal.headline}
+            {hero.title}
           </h1>
-          <p className="max-w-md mt-8 text-lg font-light leading-relaxed text-stone-400">
-            {personal.description}
+          <p className="max-w-lg mt-8 text-lg font-light leading-relaxed text-stone-400 text-center md:text-left">
+            {hero.description}
           </p>
         </motion.div>
 
@@ -61,8 +61,8 @@ export const Hero = () => {
       >
         <div className="relative z-10 w-72 h-96 md:w-96 md:h-[500px] overflow-hidden rounded-[2rem] border-4 border-white/5 shadow-2xl">
           <img
-            src="https://images.unsplash.com/photo-1635366898830-b5d48950e4f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMGp1bmlvciUyMGRldmVsb3BlciUyMHBvcnRyYWl0JTIwc29mdCUyMGxpZ2h0aW5nfGVufDF8fHx8MTc3MTA4MjM1NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Maya"
+            src="/fotohero.jpeg"
+            alt="Arfida Nuha Pinata"
             className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
           />
         </div>

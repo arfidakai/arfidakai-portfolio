@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
-import { portfolioData } from '@/data/portfolio';
+import { portfolioData } from '@/data/portfolio-data';
 
 export const Navbar = () => {
   const { personal, navigation } = portfolioData;

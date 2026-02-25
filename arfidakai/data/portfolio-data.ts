@@ -3,21 +3,21 @@ export const portfolioData = {
   personal: {
     name: "Arfida",
     fullName: "Arfida Nuha Pinata",
-    title: "Web Developer & Sharia Business Enthusiast",
-    tagline: "Building impactful digital solutions with purpose",
+    title: "AI-Curious Web Developer",
+    tagline: "Vibe coding ideas into intelligent digital products",
     email: "arfidapinata2702@gmail.com",
     location: "Indonesia",
   },
 
   // Hero Section
   hero: {
-    badge: "Open for Collaboration & Research",
-    title: "Building meaningful digital solutions.",
-    highlightWord: "meaningful",
+    badge: "Exploring AI & Building Fast",
+    title: "Turning ideas into intelligent web experiences.",
+    highlightWord: "intelligent",
     description:
-      "I'm Arfida Nuha Pinata, a web developer with a strong interest in Islamic finance, business development, and digital systems. I build functional, clean, and purposeful web applications.",
+      "I'm Arfida Nuha Pinata, a web developer who loves vibe coding — rapidly transforming ideas into functional prototypes. I'm deeply interested in AI-assisted development, system design, and building experimental digital products.",
     primaryCTA: {
-      text: "Explore Projects",
+      text: "View My Projects",
       href: "#projects",
     },
     secondaryCTA: {
@@ -31,135 +31,150 @@ export const portfolioData = {
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Research", href: "#research" },
     { name: "Contact", href: "#contact" },
   ],
 
   // About Section
   about: {
-    label: "Background",
-    title: "Technology, business, and Islamic finance in one journey.",
+    label: "About Me",
+    title: "Curious builder. AI explorer. System thinker.",
     paragraphs: [
-      "I am a college student focusing on Sharia Business and financial analysis, while actively developing web-based systems using PHP, MySQL, and modern frontend tools. My projects often revolve around donation systems, waqf management, and small business digitalization.",
-      "I believe technology should bring real impact — whether through building a waqf land acquisition system, developing a donation platform, or conducting financial ratio analysis for research and journal publication.",
+      "I'm a web developer with a strong curiosity for how AI can enhance everyday digital experiences. I enjoy vibe coding — building fast, iterating quickly, and experimenting with new technologies to turn abstract ideas into working products.",
+      "My background in business and financial analysis helps me think beyond code. I don't just build interfaces — I design systems that are structured, scalable, and meaningful.",
+      "Currently, I'm exploring AI integration, automation tools, and intelligent workflows to understand how technology can simplify learning, productivity, and real-world problems.",
     ],
     stats: [
-      { value: "10+", label: "Web Projects Built" },
-      { value: "3+", label: "Years Learning & Building" },
-      { value: "1", label: "Regional Business Plan Champion" },
+      { value: "15+", label: "Projects & Experiments Built" },
+      { value: "3+", label: "Years Learning & Coding" },
+      { value: "∞", label: "Curiosity for AI" },
     ],
   },
 
   // Skills Section
   skills: {
-    title: "Technical & Academic Skills",
+    title: "Tech Stack & Exploration",
     description:
-      "A combination of web development, database management, and financial analysis.",
+      "A blend of web fundamentals, backend logic, and AI experimentation.",
     categories: [
       {
-        name: "Frontend",
+        name: "Frontend Development",
         icon: "Layout",
         color: "from-blue-500 to-indigo-600",
-        items: ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+        items: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Next.js",
+          "Tailwind CSS",
+        ],
       },
       {
-        name: "Backend",
+        name: "Backend & Systems",
         icon: "Server",
         color: "from-green-500 to-emerald-600",
-        items: ["PHP", "CodeIgniter 4", "MySQL", "REST API"],
+        items: [
+          "PHP",
+          "CodeIgniter 4",
+          "MySQL",
+          "Supabase",
+          "REST APIs",
+        ],
       },
       {
-        name: "Tools & Deployment",
-        icon: "Terminal",
-        color: "from-orange-400 to-red-500",
-        items: ["Git & GitHub", "Vercel", "Supabase", "VS Code"],
-      },
-      {
-        name: "Business & Finance",
-        icon: "BarChart",
+        name: "AI & Experimentation",
+        icon: "Sparkles",
         color: "from-purple-500 to-pink-600",
         items: [
-          "Financial Ratio Analysis",
-          "Islamic Finance",
-          "Business Plan Development",
-          "Academic Research Writing",
+          "OpenAI API",
+          "Prompt Engineering",
+          "Automation Tools",
+          "Rapid Prototyping",
+        ],
+      },
+      {
+        name: "Tools & Workflow",
+        icon: "Terminal",
+        color: "from-orange-400 to-amber-500",
+        items: [
+          "Git & GitHub",
+          "Vercel",
+          "VS Code",
+          "System Design Thinking",
         ],
       },
     ],
   },
 
   // Projects Section
- projects: {
-  title: "Selected Projects",
-  description:
-    "A collection of systems and applications that blend technology, education, finance, and real-world impact.",
-  items: [
-    {
-      title: "Lecturely – AI Study Companion",
-      description:
-        "A web-based academic productivity platform that helps students organize lecture notes, summarize materials, and manage study tasks efficiently. Designed to improve structured learning with AI-assisted features.",
-      image: "/images/lecturely.jpg",
-      stack: ["Next.js", "Tailwind CSS", "Supabase", "AI Integration"],
-      color: "from-indigo-500 to-blue-500",
-      link: "#",
-      github: "#",
-    },
-    {
-      title: "Moodly – Emotion & Productivity Tracker",
-      description:
-        "A mood tracking application that visualizes emotional patterns and connects them with daily productivity insights. Focused on clean UI, color psychology, and interactive dashboards.",
-      image: "/images/moodly.jpg",
-      stack: ["React", "Tailwind CSS", "Chart.js", "Local Storage / API"],
-      color: "from-pink-500 to-purple-500",
-      link: "#",
-      github: "#",
-    },
-    {
-      title: "Waqf & Donation Management System",
-      description:
-        "A web-based system for managing waqf land acquisition and donation tracking, including donor database management, payment instructions, and real-time status updates.",
-      image: "/images/waqf-project.jpg",
-      stack: ["HTML", "PHP", "CodeIgniter 4", "MySQL"],
-      color: "from-green-500 to-emerald-500",
-      link: "#",
-      github: "#",
-    },
-    // {
-    //   title: "Financial Ratio Analysis Dashboard",
-    //   description:
-    //     "An interactive financial analysis dashboard that calculates liquidity, profitability, and solvency ratios based on company financial statements, designed to support academic research and financial decision-making.",
-    //   image: "/images/financial-dashboard.jpg",
-    //   stack: ["Next.js", "JavaScript", "Chart Visualization", "Financial Analysis"],
-    //   color: "from-amber-500 to-orange-500",
-    //   link: "#",
-    //   github: "#",
-    // },
-  ],
-},
-
-  // Research Section
-  research: {
-    title: "Research & Academic Focus",
+  projects: {
+    title: "Selected Projects & Experiments",
     description:
-      "My academic interests include Islamic contracts (Istishna), financial performance analysis, and Sharia-based economic development. I aim to integrate technology with Islamic economic systems.",
+      "Creative and AI-driven web applications built from curiosity and structured problem-solving.",
+    items: [
+      {
+        title: "Lecturely – AI-Powered Study Companion",
+        description:
+          "An AI-assisted academic productivity web app that helps students organize lecture notes, summarize materials, and structure study workflows. Built from my curiosity about how AI can improve learning efficiency.",
+        image: "/lecturely.png",
+        stack: ["Next.js", "Tailwind CSS", "Supabase", "OpenAI API"],
+        color: "from-indigo-500 to-blue-500",
+        type: "web",
+        link: "#",
+        github: "#",
+      },
+      {
+        title: "Moodly – Reflective Mood Journal",
+        description:
+          "A visual mood tracking and reflection app featuring streak systems and emotional pattern tracking. Designed to explore color psychology, user motivation, and interactive UI design.",
+        image: "/moodly.png",
+        stack: ["React", "Tailwind CSS", "Chart.js"],
+        color: "from-pink-500 to-purple-500",
+        type: "mobile",
+        link: "#",
+        github: "#",
+      },
+      // {
+      //   title: "Waqf & Donation Management System",
+      //   description:
+      //     "A structured web-based donation and waqf tracking system using MVC architecture, focusing on database design, payment flow logic, and real-world implementation.",
+      //   image: "/waqaf.png",
+      //   stack: ["PHP", "CodeIgniter 4", "MySQL"],
+      //   color: "from-green-500 to-emerald-500",
+      //   type: "web",
+      //   link: "#",
+      //   github: "#",
+      // },
+      // {
+      //   title: "AI Micro Projects & Automation Tools",
+      //   description:
+      //     "A collection of small AI-powered experiments and productivity tools built through vibe coding. Focused on rapid iteration, API integration, and intelligent workflow automation.",
+      //   image: "/ai-experiments.png",
+      //   stack: ["JavaScript", "API Integration", "AI Tools"],
+      //   color: "from-orange-500 to-amber-500",
+      //   type: "web",
+      //   link: "#",
+      //   github: "#",
+      // },
+    ],
   },
 
   // Contact Section
   contact: {
-    label: "Get in touch",
-    title: "Let's build something impactful.",
+    label: "Get in Touch",
+    title: "Let's build something intelligent.",
     description:
-      "I am open to collaboration in web development, Islamic finance research, and digital business projects.",
+      "I'm open to collaboration in web development, AI experimentation, and building digital products that solve real problems.",
     email: "arfidapinata2702@gmail.com",
     socials: [
-      { platform: "Linkedin", url: "https://linkedin.com/in/yourprofile" },
-      { platform: "Github", url: "https://github.com/yourusername" },
+      { platform: "LinkedIn", url: "https://linkedin.com/in/yourprofile" },
+      { platform: "GitHub", url: "https://github.com/yourusername" },
     ],
   },
 
   // Footer
   footer: {
     copyright: `© ${new Date().getFullYear()} Arfida Nuha Pinata. All rights reserved.`,
-    builtWith: "Built with Next.js & Tailwind CSS",
+    builtWith: "Built with Next.js, Tailwind CSS, and late-night curiosity ☕",
   },
 };
