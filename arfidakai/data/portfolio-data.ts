@@ -120,7 +120,7 @@ export const portfolioData = {
         stack: ["Next.js", "Tailwind CSS", "Supabase", "OpenAI API"],
         color: "from-indigo-500 to-blue-500",
         type: "web",
-        link: "#",
+        link: "https://lecturely-arfidakai.vercel.app/",
         github: "#",
       },
       {
@@ -131,7 +131,7 @@ export const portfolioData = {
         stack: ["React", "Tailwind CSS", "Chart.js"],
         color: "from-pink-500 to-purple-500",
         type: "mobile",
-        link: "#",
+        link: "https://arfidakai.github.io/moodly/",
         github: "#",
       },
       // {
