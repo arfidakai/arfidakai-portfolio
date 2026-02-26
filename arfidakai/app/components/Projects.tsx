@@ -23,14 +23,19 @@ export const Projects = () => {
           {/* Row 1: Portrait cards (2 columns) */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {projects.slice(0, 2).map((project, idx) => (
-              <motion.div
+              <a
                 key={project.title}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: idx * 0.1 }}
-                className="group cursor-pointer"
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: idx * 0.1 }}
+                  className="group cursor-pointer"
+                >
                 <div className="relative aspect-[3/4] overflow-hidden rounded-[2.5rem] bg-[#161924] border border-white/5 mb-8">
                   <img
                     src={project.image}
@@ -60,20 +65,26 @@ export const Projects = () => {
                   </p>
                 </div>
               </motion.div>
+              </a>
             ))}
           </div>
 
           {/* Row 2: Landscape cards (2 columns) */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {projects.slice(2, 4).map((project, idx) => (
-              <motion.div
+              <a
                 key={project.title}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: (idx + 2) * 0.1 }}
-                className="group cursor-pointer"
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: (idx + 2) * 0.1 }}
+                  className="group cursor-pointer"
+                >
                 <div className="relative aspect-[16/10] overflow-hidden rounded-[2.5rem] bg-[#161924] border border-white/5 mb-8">
                   <img
                     src={project.image}
@@ -103,6 +114,7 @@ export const Projects = () => {
                   </p>
                 </div>
               </motion.div>
+              </a>
             ))}
           </div>
         </div>
