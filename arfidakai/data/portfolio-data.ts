@@ -113,14 +113,36 @@ export const portfolioData = {
       "Creative and AI-driven web applications built from curiosity and structured problem-solving.",
     items: [
       {
-        title: "Lecturely – AI-Powered Study Companion",
+        title: "LectureLu – AI-Powered Study Companion",
         description:
-          "An AI-assisted academic productivity web app that helps students organize lecture notes, summarize materials, and structure study workflows. Built from my curiosity about how AI can improve learning efficiency.",
+          "An AI-assisted academic productivity web app that helps students organize lecture notes, summarize complex materials, and structure efficient study workflows.",
         image: "/lecturely.png",
         stack: ["Next.js", "Tailwind CSS", "Supabase", "OpenAI API"],
         color: "from-indigo-500 to-blue-500",
         type: "web",
         link: "https://lecturely-arfidakai.vercel.app/",
+        github: "#",
+      },
+      {
+        title: "Kaizen – Continuous Habit & Productivity Tracker",
+        description:
+          "A productivity system built around the Kaizen philosophy, designed to track daily habits, monitor incremental progress, and foster continuous personal improvement.",
+        image: "/kaizen.png",
+        stack: ["React", "Tailwind CSS", "Supabase"],
+        color: "from-emerald-500 to-teal-500",
+        type: "web",
+        link: "https://kaizen-ten.vercel.app/",
+        github: "#",
+      },
+      {
+        title: "Meal-Plan – Smart Menu & Budget Planner",
+        description:
+          "A structured web application to plan daily or weekly meals efficiently, helping users organize recipes, manage grocery lists, and optimize household budgeting.",
+        image: "/meal-plan.png",
+        stack: ["Next.js", "Tailwind CSS", "MySQL"],
+        color: "from-amber-500 to-orange-500",
+        type: "web",
+        link: "https://meal-plan-pi.vercel.app/",
         github: "#",
       },
       {
@@ -134,28 +156,6 @@ export const portfolioData = {
         link: "https://arfidakai.github.io/moodly/",
         github: "#",
       },
-      // {
-      //   title: "Waqf & Donation Management System",
-      //   description:
-      //     "A structured web-based donation and waqf tracking system using MVC architecture, focusing on database design, payment flow logic, and real-world implementation.",
-      //   image: "/waqaf.png",
-      //   stack: ["PHP", "CodeIgniter 4", "MySQL"],
-      //   color: "from-green-500 to-emerald-500",
-      //   type: "web",
-      //   link: "#",
-      //   github: "#",
-      // },
-      // {
-      //   title: "AI Micro Projects & Automation Tools",
-      //   description:
-      //     "A collection of small AI-powered experiments and productivity tools built through vibe coding. Focused on rapid iteration, API integration, and intelligent workflow automation.",
-      //   image: "/ai-experiments.png",
-      //   stack: ["JavaScript", "API Integration", "AI Tools"],
-      //   color: "from-orange-500 to-amber-500",
-      //   type: "web",
-      //   link: "#",
-      //   github: "#",
-      // },
     ],
   },
 
