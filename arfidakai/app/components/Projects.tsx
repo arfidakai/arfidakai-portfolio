@@ -85,7 +85,7 @@ export const Projects = () => {
                   transition={{ duration: 0.8, delay: (idx + 2) * 0.1 }}
                   className="group cursor-pointer"
                 >
-                <div className="relative aspect-[16/10] overflow-hidden rounded-[2.5rem] bg-[#161924] border border-white/5 mb-8">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-[2.5rem] bg-[#161924] border border-white/5 mb-8">
                   <img
                     src={project.image}
                     alt={project.title}
