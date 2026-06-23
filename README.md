@@ -2,7 +2,7 @@
 
 Welcome to the repository of my personal portfolio website! Built to showcase my journey as an AI-curious web developer who loves vibe coding — rapidly transforming abstract ideas into functional prototypes and intelligent web experiences.
 
-🎯 **Live Demo:** [Insert Your Vercel/GitHub Pages Link Here]
+🎯 **Live Demo:** _**https://arfidakai-portfolio.vercel.app/**_
 
 ---
 
