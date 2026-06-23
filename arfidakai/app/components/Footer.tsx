@@ -22,9 +22,9 @@ export const Footer = () => {
             <a href="#" className="text-sm font-bold text-stone-400 hover:text-white transition-colors uppercase tracking-widest">Process</a>
             <a href="#" className="text-sm font-bold text-stone-400 hover:text-white transition-colors uppercase tracking-widest">Blog</a>
           </div>
-          <div className="text-stone-600 text-xs font-medium tracking-widest uppercase">
-            © 2026 Designed & Developed by Maya
-          </div>
+          {/* <div className="text-stone-600 text-xs font-medium tracking-widest uppercase">
+            © 2026 Designed & Developed by
+          </div> */}
         </div>
       </div>
     </footer>

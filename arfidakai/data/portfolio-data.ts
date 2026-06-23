@@ -113,7 +113,7 @@ export const portfolioData = {
       "Creative and AI-driven web applications built from curiosity and structured problem-solving.",
     items: [
       {
-        title: "LectureLu – AI-Powered Study Companion",
+        title: "Lecturely – AI-Powered Study Companion",
         description:
           "An AI-assisted academic productivity web app that helps students organize lecture notes, summarize complex materials, and structure efficient study workflows.",
         image: "/lecturely.png",
@@ -167,8 +167,8 @@ export const portfolioData = {
       "I'm open to collaboration in web development, AI experimentation, and building digital products that solve real problems.",
     email: "arfidapinata2702@gmail.com",
     socials: [
-      { platform: "LinkedIn", url: "https://linkedin.com/in/yourprofile" },
-      { platform: "GitHub", url: "https://github.com/yourusername" },
+      { platform: "LinkedIn", url: "https://linkedin.com/in/arfidapinata" },
+      { platform: "GitHub", url: "https://github.com/arfidakai" },
     ],
   },
 
