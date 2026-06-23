@@ -2,13 +2,22 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
-import { Mail, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, Github, Linkedin, Send } from 'lucide-react';
 import { portfolioData } from '@/data/portfolio-data';
 
-const socialIconMap = {
-  Linkedin: <Linkedin className="w-5 h-5" />,
-  Github: <Github className="w-5 h-5" />,
-  Twitter: <Twitter className="w-5 h-5" />,
+import * as Icons from "lucide-react";
+
+console.log(Object.keys(Icons).filter(i =>
+  i.toLowerCase().includes("git")
+));
+
+console.log(Object.keys(Icons).filter(i =>
+  i.toLowerCase().includes("link")
+));
+
+const socialIconMap: Record<string, React.ReactNode> = {
+  LinkedIn: <Linkedin className="w-5 h-5" />,
+  GitHub: <Github className="w-5 h-5" />,
 };
 
 export const Contact = () => {
@@ -35,6 +44,7 @@ export const Contact = () => {
                   <Mail className="w-6 h-6" />
                 </div>
                 <span>{contact.email}</span>
+                
               </a>
             </div>
 
